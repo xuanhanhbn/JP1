@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane depthTest="ENABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" pickOnBounds="false" prefHeight="596.0" prefWidth="600.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Text layoutX="54.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Họ tên">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Text>
+        <TextField blendMode="ADD" layoutX="183.0" layoutY="102.0" promptText="Điền tên vào đây" />
+        <Text layoutX="54.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Text>
+        <TextField layoutX="183.0" layoutY="156.0" promptText="Đây là chỗ điền mail" />
+        <Text layoutX="54.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tuổi">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Text>
+        <TextField layoutX="183.0" layoutY="208.0" promptText="Đủ tuổi đi tù chưa" />
+        <Text layoutX="54.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Địa chỉ">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Text>
+        <TextField layoutX="183.0" layoutY="254.0" promptText="Địa chỉ đó, biết không" />
+        <Text layoutX="54.0" layoutY="399.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Họ tên">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Text>
+        <Text layoutX="54.0" layoutY="449.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Text>
+        <Text layoutX="54.0" layoutY="499.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tuổi">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Text>
+        <Text layoutX="54.0" layoutY="541.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Địa chỉ">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Text>
+        <Text layoutX="183.0" layoutY="395.0" strokeType="OUTSIDE" strokeWidth="0.0" text="______________________________" />
+        <Text layoutX="183.0" layoutY="445.0" strokeType="OUTSIDE" strokeWidth="0.0" text="______________________________" />
+        <Text layoutX="183.0" layoutY="496.0" strokeType="OUTSIDE" strokeWidth="0.0" text="______________________________" />
+        <Text layoutX="183.0" layoutY="538.0" strokeType="OUTSIDE" strokeWidth="0.0" text="______________________________" />
+    </children>
+    <cursor>
+        <Cursor fx:constant="NE_RESIZE" />
+    </cursor>
+    <effect>
+        <Glow level="0.18" />
+    </effect>
+    <opaqueInsets>
+        <Insets bottom="23.0" left="323.0" right="32.0" top="12.0" />
+    </opaqueInsets>
+</Pane>
