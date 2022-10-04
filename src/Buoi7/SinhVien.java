@@ -2,9 +2,9 @@ package Buoi7;
 
 public class SinhVien {
     String name, email;
-    String point;
+    Integer point;
 
-    public SinhVien(String name, String email, String point) {
+    public SinhVien(String name, String email, Integer point) {
         this.name = name;
         this.email = email;
         this.point = point;
@@ -26,11 +26,11 @@ public class SinhVien {
         this.email = email;
     }
 
-    public String getPoint() {
+    public float getPoint() {
         return point;
     }
 
-    public void setPoint(String point) {
+    public void setPoint(Integer point) {
         this.point = point;
     }
     public String toString(){
