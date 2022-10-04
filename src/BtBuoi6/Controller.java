@@ -17,7 +17,6 @@ public class Controller {
     public Text noticeError;
 
     private ObservableList<PhoneNumber> phoneList = FXCollections.observableArrayList();
-    ;
     public void handleAdd(){
         try {
             noticeError.setVisible(false);
@@ -50,13 +49,6 @@ public class Controller {
             }
         }
         phoneList.add(new PhoneNumber(txtName.getText(), txtPhoneNumber.getText()));
-    }
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Controller)) return false;
-        Controller that = (Controller) o;
-        return Objects.equals(txtPhoneNumber, that.txtPhoneNumber) && Objects.equals(txtName, that.txtName) && Objects.equals(listPhoneBook, that.listPhoneBook);
     }
 
 }
