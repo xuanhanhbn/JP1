@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Buoi8.Edit.editController">
+   <children>
+      <Button layoutX="25.0" layoutY="43.0" mnemonicParsing="false" onAction="#backToList" prefHeight="41.0" prefWidth="108.0" text="&lt; Back to List" />
+      <TextField fx:id="txtCode" layoutX="133.0" layoutY="117.0" prefHeight="41.0" prefWidth="356.0" promptText="Code" />
+      <TextField fx:id="txtCourseName" layoutX="133.0" layoutY="188.0" prefHeight="41.0" prefWidth="356.0" promptText="Name" />
+      <TextField fx:id="txtHours" layoutX="133.0" layoutY="261.0" prefHeight="41.0" prefWidth="356.0" promptText="Hours" />
+      <Button layoutX="381.0" layoutY="332.0" mnemonicParsing="false" onAction="#handleSubmit" prefHeight="41.0" prefWidth="108.0" text="Submit" />
+      <Text fx:id="txtNoticeError" fill="RED" layoutX="121.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+   </children>
+</Pane>
